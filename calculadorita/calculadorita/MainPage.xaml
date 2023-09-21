@@ -26,6 +26,18 @@
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
         </Grid>
+        <Button Grid.Row="0"
+                Grid.Column="0"
+                Text="C" />
+        <Button Grid.Row="0"
+                Grid.Column="1"
+                Text="C" />
+        <Button Grid.Row="0"
+                Grid.Column="2"
+                Text="C" />
+        <Button Grid.Row="0"
+                Grid.Column="3"
+                Text="C" />
     </StackLayout>
 
 </ContentPage>
