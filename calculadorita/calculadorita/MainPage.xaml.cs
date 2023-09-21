@@ -14,5 +14,11 @@ namespace calculadorita
         {
             InitializeComponent();
         }
+
+        private void BtnOne_Clicked(object sender, EventArgs e)
+        {
+            LblResult.Text = "1";
+
+        }
     }
 }

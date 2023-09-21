@@ -6,7 +6,7 @@
 
     <StackLayout Padding="20">
         <Frame BackgroundColor="Pink"
-               Padding="25" Margin="0,0,0,60">
+               Padding="25" Margin="0,40,0,75">
 
             <Label x:Name="LblResult"
                    FontFamily="digital-7.ttf#Digital-7 Regular"
@@ -35,24 +35,28 @@
             <Button Grid.Row="0"
                 Grid.Column="0"
                 Text="C"
+                    FontFamily="digital-7.ttf#Digital-7 Regular"
                     FontSize="Large"
                     FontAttributes="Bold"
                     Padding="40"/>
             <Button Grid.Row="0"
                 Grid.Column="1"
                 Text="x"
+                    FontFamily="digital-7.ttf#Digital-7 Regular"
                      FontSize="Large"
                     FontAttributes="Bold"
                     Padding="38"/>
             <Button Grid.Row="0"
                 Grid.Column="2"
                 Text="%"
+                    FontFamily="digital-7.ttf#Digital-7 Regular"
                      FontSize="Large"
                     FontAttributes="Bold"
                     Padding="38"/>
             <Button Grid.Row="0"
                 Grid.Column="3"
                 Text="/"
+                    FontFamily="digital-7.ttf#Digital-7 Regular"
                      FontSize="Large"
                     FontAttributes="Bold"
                     Padding="38"/>
@@ -62,13 +66,17 @@
                 Grid.Row="1"
                 Grid.Column="0"
                 Text="1"
+                FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
-                Padding="38"/>
+                Padding="38"
+                x:Name="BtnOne"
+                Clicked="BtnOne_Clicked"/>
             <Button
                 Grid.Row="1"
                 Grid.Column="1"
                 Text="2"
+                FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
                 Padding="38"/>
@@ -76,6 +84,7 @@
                 Grid.Row="1"
                 Grid.Column="2"
                 Text="3"
+                FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
                 Padding="38"/>
@@ -83,6 +92,7 @@
                 Grid.Row="1"
                 Grid.Column="3"
                 Text="*"
+                FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
                 Padding="38"/>
@@ -93,6 +103,7 @@
                 Grid.Row="2"
                 Grid.Column="0"
                 Text="4"
+                FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
                 Padding="38"/>
@@ -100,6 +111,7 @@
                 Grid.Row="2"
                 Grid.Column="1"
                 Text="5"
+                FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
                 Padding="38"/>
@@ -107,6 +119,7 @@
                 Grid.Row="2"
                 Grid.Column="2"
                 Text="6"
+                FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
                 Padding="38"/>
@@ -114,6 +127,7 @@
                 Grid.Row="2"
                 Grid.Column="3"
                 Text="-"
+                FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
                 Padding="38"/>
@@ -124,6 +138,7 @@
                 Grid.Row="3"
                 Grid.Column="0"
                 Text="7"
+                FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
                 Padding="38"/>
@@ -131,6 +146,7 @@
                 Grid.Row="3"
                 Grid.Column="1"
                 Text="8"
+                FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
                 Padding="38"/>
@@ -138,6 +154,7 @@
                 Grid.Row="3"
                 Grid.Column="2"
                 Text="9"
+                FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
                 Padding="38"/>
@@ -146,6 +163,7 @@
                 Grid.Column="3"
                 Grid.RowSpan="2"
                 Text="+"
+                FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
                 Padding="38"/>
@@ -156,6 +174,7 @@
                 Grid.Row="4"
                 Grid.Column="0"
                 Text="."
+                FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
                 Padding="38"/>
@@ -163,6 +182,7 @@
                 Grid.Row="4"
                 Grid.Column="1"
                 Text="0"
+                FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
                 Padding="38"/>
@@ -170,6 +190,7 @@
                 Grid.Row="4"
                 Grid.Column="2"
                 Text="="
+                FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
                 Padding="38"/> 
