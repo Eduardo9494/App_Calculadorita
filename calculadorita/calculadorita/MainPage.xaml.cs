@@ -15,16 +15,25 @@ namespace calculadorita
             InitializeComponent();
         }
 
+       
+
         private void BtnOne_Clicked(object sender, EventArgs e)
         {
             LblResult.Text = "1";
 
         }
+
+        private decimal firstNummer;
+        private string operatorName;
+        private bool isOperatorClicked;
+
+
         private void BtnCommon_Clicked(object sender, EventArgs e)
         {
             var button=sender as Button;
-            if(LblResult.Text=="0")
+            if(LblResult.Text=="0"||isOperatorClicked)
             {
+                isOperatorClicked = false;
                 LblResult.Text = button.Text;
             }
             else
@@ -58,6 +67,16 @@ namespace calculadorita
 
         }
 
+        private void BtnCommonOperation_Clicked(object sender, EventArgs e)
+        {
+            var button = sender as Button;
+            isOperatorClicked = true;
+            operatorName = button.Text;
+            firstNummer = Convert.ToDecimal(LblResult.Text);
+
+        }
+
+
         private async void Btnporcentage_Clicked(object sender, EventArgs e)
         {
             try
@@ -74,6 +93,46 @@ namespace calculadorita
             {
                  await DisplayAlert("Error ",ex.Message,"ok");
             }
+
+        }
+
+        private void BtnEqual_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                decimal secondNumber = Convert.ToDecimal(LblResult.Text);
+                string finalResult = Calculate(firstNummer, secondNumber).ToString("0.##");
+                LblResult.Text = finalResult;
+            }
+
+            catch(Exception ex)
+            {
+                DisplayAlert("Error", ex.Message, "ok");
+            }
+
+        }
+
+        public decimal Calculate(decimal firstNumber , decimal secondNumber)
+        {
+            decimal result = 0;
+            if (operatorName == "+")
+            {
+                result= firstNumber + secondNumber;
+            }
+            else if (operatorName == "-")
+            {
+                result=  firstNumber - secondNumber;
+            }
+            else if (operatorName == "*")
+            {
+                result= firstNumber * secondNumber;
+
+            }
+            else if (operatorName == "/")
+            {
+                result= firstNumber / secondNumber;
+            }
+            return result;
 
         }
     }

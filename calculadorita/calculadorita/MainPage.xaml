@@ -65,7 +65,8 @@
                     FontFamily="digital-7.ttf#Digital-7 Regular"
                      FontSize="Large"
                     FontAttributes="Bold"
-                    Padding="38"/>
+                    Padding="38"
+                    Clicked="BtnCommonOperation_Clicked"/>
 
             <!--2 no row-->
             <Button
@@ -103,7 +104,8 @@
                 FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
-                Padding="38"/>
+                Padding="38"
+                Clicked="BtnCommonOperation_Clicked"/>
 
             <!--3 no row-->
 
@@ -141,7 +143,8 @@
                 FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
-                Padding="38"/>
+                Padding="38"
+                Clicked="BtnCommonOperation_Clicked"/>
 
             <!--4 no row-->
 
@@ -180,7 +183,8 @@
                 FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
-                Padding="38"/>
+                Padding="38"
+                Clicked="BtnCommonOperation_Clicked"/>
 
             <!--5 no row-->
 
@@ -209,7 +213,9 @@
                 FontFamily="digital-7.ttf#Digital-7 Regular"
                 FontSize="Large"
                 FontAttributes="Bold"
-                Padding="38"/> 
+                Padding="38"
+                x:Name="BtnEqual"
+                Clicked="BtnEqual_Clicked" /> 
 
 
  
