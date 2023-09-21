@@ -6,7 +6,7 @@
 
     <StackLayout Padding="20">
         <Frame BackgroundColor="Pink"
-               Padding="25" Margin="0,0,0,20">
+               Padding="30" Margin="0,0,0,20">
             <Label Text="0" 
                    FontSize="36"
                    FontAttributes="Bold"
@@ -34,19 +34,19 @@
                 Text="C"
                     FontSize="Large"
                     FontAttributes="Bold"
-                    Padding="20"/>
+                    Padding="30"/>
             <Button Grid.Row="0"
                 Grid.Column="1"
                 Text="x"
                      FontSize="Large"
                     FontAttributes="Bold"
-                    Padding="20"/>
+                    Padding="30"/>
             <Button Grid.Row="0"
                 Grid.Column="2"
                 Text="%"
                      FontSize="Large"
                     FontAttributes="Bold"
-                    Padding="20"/>
+                    Padding="30"/>
             <Button Grid.Row="0"
                 Grid.Column="3"
                 Text="/"
@@ -61,29 +61,118 @@
                 Text="1"
                 FontSize="Large"
                 FontAttributes="Bold"
-                Padding="20"/>
+                Padding="30"/>
             <Button
                 Grid.Row="1"
                 Grid.Column="1"
                 Text="2"
                 FontSize="Large"
                 FontAttributes="Bold"
-                Padding="20"/>
+                Padding="30"/>
             <Button
                 Grid.Row="1"
                 Grid.Column="2"
                 Text="3"
                 FontSize="Large"
                 FontAttributes="Bold"
-                Padding="20"/>
+                Padding="30"/>
             <Button
                 Grid.Row="1"
                 Grid.Column="3"
+                Text="*"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="30"/>
+
+            <!--3 no row-->
+
+            <Button
+                Grid.Row="2"
+                Grid.Column="0"
                 Text="4"
                 FontSize="Large"
                 FontAttributes="Bold"
-                Padding="20"/>
-            
+                Padding="30"/>
+            <Button
+                Grid.Row="2"
+                Grid.Column="1"
+                Text="5"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="30"/>
+            <Button
+                Grid.Row="2"
+                Grid.Column="2"
+                Text="6"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="30"/>
+            <Button
+                Grid.Row="2"
+                Grid.Column="3"
+                Text="-"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="30"/>
+
+            <!--4 no row-->
+
+            <Button
+                Grid.Row="3"
+                Grid.Column="0"
+                Text="7"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="30"/>
+            <Button
+                Grid.Row="3"
+                Grid.Column="1"
+                Text="8"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="30"/>
+            <Button
+                Grid.Row="3"
+                Grid.Column="2"
+                Text="9"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="30"/>
+            <Button
+                Grid.Row="3"
+                Grid.Column="3"
+                Grid.RowSpan="2"
+                Text="+"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="30"/>
+
+            <!--5 no row-->
+
+            <Button
+                Grid.Row="4"
+                Grid.Column="0"
+                Text="."
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="30"/>
+            <Button
+                Grid.Row="4"
+                Grid.Column="1"
+                Text="0"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="30"/>
+            <Button
+                Grid.Row="4"
+                Grid.Column="2"
+                Text="="
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="30"/> 
+
+
+
 
         </Grid>
         
