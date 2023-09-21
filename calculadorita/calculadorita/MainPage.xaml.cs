@@ -20,5 +20,18 @@ namespace calculadorita
             LblResult.Text = "1";
 
         }
+        private void BtnCommon_Clicked(object sender, EventArgs e)
+        {
+            var button=sender as Button;
+            if(LblResult.Text=="0")
+            {
+                LblResult.Text = button.Text;
+            }
+            else
+            {
+                LblResult.Text += button.Text;
+            }
+
+        }
     }
 }
