@@ -5,7 +5,8 @@
              BackgroundColor="PeachPuff">
 
     <StackLayout Padding="20">
-        <Frame BackgroundColor="Pink">
+        <Frame BackgroundColor="Pink"
+               Padding="25" Margin="0,0,0,20">
             <Label Text="0" 
                    FontSize="36"
                    FontAttributes="Bold"
