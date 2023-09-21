@@ -56,7 +56,9 @@
                     FontFamily="digital-7.ttf#Digital-7 Regular"
                      FontSize="Large"
                     FontAttributes="Bold"
-                    Padding="38"/>
+                    Padding="38"
+                    x:Name="Btnporcentage"
+                    Clicked="Btnporcentage_Clicked"/>
             <Button Grid.Row="0"
                 Grid.Column="3"
                 Text="/"

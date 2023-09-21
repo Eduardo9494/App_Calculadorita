@@ -57,5 +57,24 @@ namespace calculadorita
             }
 
         }
+
+        private async void Btnporcentage_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                string number = LblResult.Text;
+                if (number != "0") 
+                {
+                    decimal porcentValue = Convert.ToDecimal(number);
+                    string result = (porcentValue / 100).ToString("0.##");
+                    LblResult.Text = result;
+                }
+            }
+            catch( Exception ex)
+            {
+                 await DisplayAlert("Error ",ex.Message,"ok");
+            }
+
+        }
     }
 }
