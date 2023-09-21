@@ -46,6 +46,8 @@ namespace calculadorita
         private void BtnClear_Clicked(object sender, EventArgs e)
         {
             LblResult.Text = "0";
+            isOperatorClicked = false;
+            firstNummer = 0;
 
         }
 
@@ -58,6 +60,7 @@ namespace calculadorita
                 if (string.IsNullOrEmpty(number))
                 {
                     LblResult.Text = "0";
+
                 }
                 else
                 {
