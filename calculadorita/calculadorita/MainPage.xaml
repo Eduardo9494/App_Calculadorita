@@ -38,7 +38,9 @@
                     FontFamily="digital-7.ttf#Digital-7 Regular"
                     FontSize="Large"
                     FontAttributes="Bold"
-                    Padding="40"/>
+                    Padding="40"
+                    x:Name="BtnClear"
+                    Clicked="BtnClear_Clicked"/>
             <Button Grid.Row="0"
                 Grid.Column="1"
                 Text="x"

@@ -33,5 +33,11 @@ namespace calculadorita
             }
 
         }
+
+        private void BtnClear_Clicked(object sender, EventArgs e)
+        {
+            LblResult.Text = "0";
+
+        }
     }
 }
