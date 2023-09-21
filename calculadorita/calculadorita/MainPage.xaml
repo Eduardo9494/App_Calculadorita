@@ -6,8 +6,10 @@
 
     <StackLayout Padding="20">
         <Frame BackgroundColor="Pink"
-               Padding="25" Margin="0,0,0,80">
-            <Label Text="0" 
+               Padding="25" Margin="0,0,0,75">
+            
+            <Label 
+                 Text="0" 
                    FontSize="36"
                    FontAttributes="Bold"
                    HorizontalOptions="End"></Label>
@@ -34,7 +36,7 @@
                 Text="C"
                     FontSize="Large"
                     FontAttributes="Bold"
-                    Padding="38"/>
+                    Padding="40"/>
             <Button Grid.Row="0"
                 Grid.Column="1"
                 Text="x"
@@ -172,7 +174,7 @@
                 Padding="38"/> 
 
 
-
+ 
 
         </Grid>
         
