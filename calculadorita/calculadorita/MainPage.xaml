@@ -31,13 +31,13 @@
                 Text="C" />
             <Button Grid.Row="0"
                 Grid.Column="1"
-                Text="C" />
+                Text="x" />
             <Button Grid.Row="0"
                 Grid.Column="2"
-                Text="C" />
+                Text="%" />
             <Button Grid.Row="0"
                 Grid.Column="3"
-                Text="C" />
+                Text="/" />
 
         </Grid>
         
