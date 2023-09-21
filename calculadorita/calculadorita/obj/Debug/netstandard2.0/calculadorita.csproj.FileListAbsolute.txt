@@ -1,0 +1,15 @@
+C:\Users\Alumno\Desktop\calculadorita\calculadorita\calculadorita\bin\Debug\netstandard2.0\calculadorita.deps.json
+C:\Users\Alumno\Desktop\calculadorita\calculadorita\calculadorita\bin\Debug\netstandard2.0\calculadorita.dll
+C:\Users\Alumno\Desktop\calculadorita\calculadorita\calculadorita\bin\Debug\netstandard2.0\ref\calculadorita.dll
+C:\Users\Alumno\Desktop\calculadorita\calculadorita\calculadorita\bin\Debug\netstandard2.0\calculadorita.pdb
+C:\Users\Alumno\Desktop\calculadorita\calculadorita\calculadorita\obj\Debug\netstandard2.0\calculadorita.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\calculadorita\calculadorita\calculadorita\obj\Debug\netstandard2.0\calculadorita.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Desktop\calculadorita\calculadorita\calculadorita\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Alumno\Desktop\calculadorita\calculadorita\calculadorita\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Alumno\Desktop\calculadorita\calculadorita\calculadorita\obj\Debug\netstandard2.0\calculadorita.AssemblyInfoInputs.cache
+C:\Users\Alumno\Desktop\calculadorita\calculadorita\calculadorita\obj\Debug\netstandard2.0\calculadorita.AssemblyInfo.cs
+C:\Users\Alumno\Desktop\calculadorita\calculadorita\calculadorita\obj\Debug\netstandard2.0\calculadorita.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\calculadorita\calculadorita\calculadorita\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Alumno\Desktop\calculadorita\calculadorita\calculadorita\obj\Debug\netstandard2.0\calculadorita.dll
+C:\Users\Alumno\Desktop\calculadorita\calculadorita\calculadorita\obj\Debug\netstandard2.0\refint\calculadorita.dll
+C:\Users\Alumno\Desktop\calculadorita\calculadorita\calculadorita\obj\Debug\netstandard2.0\calculadorita.pdb
