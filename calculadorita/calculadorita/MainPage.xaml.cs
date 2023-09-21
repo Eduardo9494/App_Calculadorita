@@ -39,5 +39,23 @@ namespace calculadorita
             LblResult.Text = "0";
 
         }
+
+        private void BtnX_Clicked(object sender, EventArgs e)
+        {
+            string number = LblResult.Text;
+            if (number != "0")
+            {
+                number = number.Remove(number.Length - 1, 1);
+                if (string.IsNullOrEmpty(number))
+                {
+                    LblResult.Text = "0";
+                }
+                else
+                {
+                    LblResult.Text = number;
+                }
+            }
+
+        }
     }
 }
