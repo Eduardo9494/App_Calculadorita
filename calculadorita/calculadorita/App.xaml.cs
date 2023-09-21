@@ -2,8 +2,11 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
+[assembly: ExportFont("digital-7.ttf")]
 namespace calculadorita
 {
+
     public partial class App : Application
     {
         public App()

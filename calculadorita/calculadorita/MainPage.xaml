@@ -6,12 +6,12 @@
 
     <StackLayout Padding="20">
         <Frame BackgroundColor="Pink"
-               Padding="25" Margin="0,0,0,75">
+               Padding="25" Margin="0,0,0,60">
 
             <Label x:Name="LblResult"
                    FontFamily="digital-7.ttf#Digital-7 Regular"
                  Text="0" 
-                   FontSize="36"
+                   FontSize="70"
                    FontAttributes="Bold"
                    HorizontalOptions="End"></Label>
         </Frame>
