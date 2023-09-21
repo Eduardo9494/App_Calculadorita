@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="calculadorita.MainPage">
+             x:Class="calculadorita.MainPage"
+             BackgroundColor="PeachPuff">
 
     <StackLayout Padding="20">
-        <Frame BackgroundColor="Aqua">
+        <Frame BackgroundColor="Pink">
             <Label Text="0" 
                    FontSize="36"
                    FontAttributes="Bold"
